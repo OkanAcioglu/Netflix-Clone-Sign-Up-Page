@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./netflixbackground.jpg);
+  color: white;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 30px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  padding-top: 10px;
+  letter-spacing: 7px;
+  font-size: 50px;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.heading-description {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 23px;
+  margin-bottom: 12px;
+}
+span {
+  color: red;
+}
+
+form {
+  background-color: black;
+  padding: 10px 0 6px 0;
+}
+
+.box {
+  margin-left: 40px;
+  margin-top: 12px;
+}
+
+.box:nth-child(-n + 3) input,
+select {
+  margin-top: 14px;
+  height: 36px;
+  width: 400px;
+  padding: 8px;
+}
+
+.textarea {
+  margin-right: 20px;
+}
+
+.send {
+  text-align: center;
+  margin: 16px 0;
+}
+.submit {
+  background-color: red;
+  font-size: larger;
+  height: 45px;
+  width: 160px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.submit:hover {
+  color: red;
+  background-color: white;
+}
